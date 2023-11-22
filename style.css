@@ -20,15 +20,17 @@ html{
     overflow-x: hidden;
 }
 #header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
-    background-image: url(image/m7.png);
-    background-size: cover;
-    background-position: center;
+    transition: .6s;
+    z-index: 10000;
 }
 .logo{
     font-size: 2rem;
     width: 140px;
+    transition: .6s;
 }
 span{
     color:var(--bg-main);
@@ -43,6 +45,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 nav ul li{
     display: inline-block;
@@ -90,10 +93,23 @@ nav ul li a:hover::after{
     font-size: 60px;
     color: var(--bg-main);
 }
+/* active tab */
+.active{
+    color: var(--bg-main);
+}
+/* -------sticky navbar------ */
+.headertxt{
+    background-image: url(image/m7.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#header.sticky{
+    background:#080808 ;
+}
 /* -------about--------- */
 
 #about{
-    margin-top: 5rem;
     padding: 80px o;
     color: #ababab;
 }
@@ -190,10 +206,10 @@ nav ul li a:hover::after{
    text-align: center;
 }
 /* -------services--------- */
-#services{
-    /* padding: 30px 0; */
+/* #services{
+    padding: 30px 0;
     margin-top: 100px;
-}
+} */
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));

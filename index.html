@@ -13,12 +13,13 @@
 </head>
 
 <body>
-    <div id="header" class="header">
+
+    <header id="header" class="header">
         <div class="container">
             <nav>
                 <h3 class="logo"><span>A</span>SHWIN.</h3>
                 <ul id="sidemenu">
-                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#headertxt">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#tech">Tech Stack</a></li>
@@ -28,14 +29,21 @@
                 </ul>
                 <i class='bx bx-menu' onclick="openmenu()"></i>
             </nav>
+
+        </div>
+    </header>
+
+    <!-- header text -->
+    <section class="headertxt" id="headertxt">
+        <div class="container">
             <div class="header-text">
                 <h1><i>"Bonjour je suis"</i><br><span class="name">Ashwin</span> Clarence</h1>
                 <p>MERN Stack Developer</p>
             </div>
         </div>
-    </div>
-     <!-- about us -->
-     <div id="about">
+    </section>
+    <!-- about us -->
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -78,10 +86,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- services -->
-   
-    <div id="services">
+
+    <section id="services">
         <div class="container">
             <h1 class="sub-title">My <span>Services</span></h1>
             <div class="services-list">
@@ -111,9 +119,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- known languages and frameworks -->
-    <div id="tech">
+    <section id="tech">
         <div class="container center">
             <h1 class="sub-title">Tech <span>Stacks</span></h1>
             <div class="services-list1">
@@ -130,66 +138,67 @@
                     <img src="image/bootstrap1.svg" alt=""">
                 </div>
                 <div>
-                    <img src="image/mongodb.svg" alt=""">
+                    <img src=" image/mongodb.svg" alt=""">
                 </div>
                 <div>
-                    <img src="image/express.svg" alt=""">
+                    <img src=" image/express.svg" alt=""">
                 </div>
                 <div>
-                    <img src="image/react.svg" alt=""">
+                    <img src=" image/react.svg" alt=""">
                 </div>
                 <div>
-                    <img src="image/node.svg" alt=""">
+                    <img src=" image/node.svg" alt=""">
                 </div>
             </div>
         </div>
-    </div>
-    </body>
+    </section>
     <!-- portfolio -->
-    <div id="portfolio">
-        <div class="container ">
-            <h1 class="sub-title">My <span> Works</span></h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="image/p2.jpeg" alt="">
-                    <div class="layer">
-                        <h3>Personnel webpages</h3>
-                        <p>showcases an individual's personal information, achievements, skills, portfolio, and
-                            interests online, allowing you to present yourself professionally, share your work, and
-                            connect with others.
-                        </p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
+    <section id="portfolio">
+                    <div class="container ">
+                        <h1 class="sub-title">My <span> Works</span></h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="image/p2.jpeg" alt="">
+                                <div class="layer">
+                                    <h3>Personnel webpages</h3>
+                                    <p>showcases an individual's personal information, achievements, skills, portfolio,
+                                        and
+                                        interests online, allowing you to present yourself professionally, share your
+                                        work, and
+                                        connect with others.
+                                    </p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="image/p1.JPEG" alt="">
+                                <div class="layer">
+                                    <h3>IOS Calculator</h3>
+                                    <p>In the Calculator app , you can perform basic arithmetic calculations with the
+                                        standard
+                                        calculator.
+                                    </p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="image/p3.JPEG" alt="">
+                                <div class="layer">
+                                    <h3>Voting software</h3>
+                                    <p>Voting is an important way for citizens to engage with their governments and the
+                                        electoral
+                                        process. It is also something students often do for the first time while in
+                                        college.
+                                    </p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">See More</a>
                     </div>
-                </div>
-                <div class="work">
-                    <img src="image/p1.JPEG" alt="">
-                    <div class="layer">
-                        <h3>IOS Calculator</h3>
-                        <p>In the Calculator app , you can perform basic arithmetic calculations with the standard
-                            calculator.
-                        </p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="image/p3.JPEG" alt="">
-                    <div class="layer">
-                        <h3>Voting software</h3>
-                        <p>Voting is an important way for citizens to engage with their governments and the electoral
-                            process. It is also something students often do for the first time while in college.
-                        </p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-            </div>
-                <a href="#" class="btn">See More</a>
-
-            
-
-        </div>
-    </div>
+    </section>
     <!-- contact -->
-    <div id="contact">
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -200,11 +209,12 @@
                     <div class="social-icons">
                         <a href="#phoneNumber"><i class='bx bxl-whatsapp'></i></a>
                         <a href="https://www.instagram.com/it_just_a_code/" target="_blank"><i
-                            class='bx bxl-instagram-alt'></i></a>
-                            <a href="https://github.com/ashwinclarence" target="_blank"><i class='bx bxl-github'></i></a>
-                            <a href="https://www.linkedin.com/in/ashwin-clarence-9041882a0/" target="_blank"><i
+                                class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://github.com/ashwinclarence" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/ashwin-clarence-9041882a0/" target="_blank"><i
                                 class='bx bxl-linkedin-square'></i></a>
-                                <a href="https://stackoverflow.com/users/22573792/" target="_blank"><i class='bx bxl-stack-overflow'></i></a>
+                        <a href="https://stackoverflow.com/users/22573792/" target="_blank"><i
+                                class='bx bxl-stack-overflow'></i></a>
                     </div>
                     <a href="Resume_Ashwin C.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -221,9 +231,11 @@
         <div class="copyright">
             <p>Copyright <i class='bx bx-copyright'>Ashwin.</i></p>
         </div>
-    </div>
-    
-<!-- js file -->
-<script src="script.js"></script>
+    </section>
+
+    <!-- js file -->
+    <script src="script.js"></script>
+
+</body>
 
 </html>
