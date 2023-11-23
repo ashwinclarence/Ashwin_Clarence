@@ -396,8 +396,8 @@ nav .bx{
 }
 
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(image/mobile1.jpg);
+    #headertxt{
+        background-image: url(image/mobile2.PNG);
     }
     .header-text{
         margin-top:100%;
@@ -451,7 +451,9 @@ nav .bx{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    #stack,
     #tech{
         display: none;
     }
+
 }
